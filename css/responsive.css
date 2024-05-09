@@ -1,0 +1,154 @@
+@media(max-width: 576px){
+    .how-i-do .how-i-do-row {
+        text-align: center;
+    }
+    .how-i-do .hid-underline-two {
+        margin: 0 auto;
+    }
+    .how-i-do .how-i-do-img {
+        padding-bottom: 20px;
+    }
+    .how-i-do .how-i-do-row p {
+        font-size: 10px;
+        line-height: 19px;
+        text-align: justify;
+        word-spacing: -3px;
+    }
+    .my-profile .my-profile-right {
+        padding: 45px 0;
+    }
+    .how-i-do .how-i-do-top p {
+        width: 100%;
+        text-align: justify;
+    }
+    .fun-facts .fun-facts-counting {
+        padding: 15px 0;
+    }
+    .keep-in-touch .social-media ul {
+        width: 116%;
+    }
+    .client .client-content .client-content-img {
+        padding: 27px 0px;
+        height: 65px;
+        width: 21.8%;
+    }
+    .client p {
+        font-size: 12px;
+        padding: 17px 0;
+        letter-spacing: 1px;
+        width: 111%;
+        margin: 0 auto;
+    }
+    .ml-0{
+        margin-left: 240px!important;
+    }
+    .keep-in-touch .keep-in-touch-content-left {
+        margin: -31px 0px;
+    }
+    .keep-in-touch .keep-in-touch-content-right {
+        padding-top: 40px;
+        text-align: center;
+    }
+    .keep-in-touch .keep-in-touch-content-right form .input-group textarea {
+        width: 92.5%;
+    }
+    .keep-in-touch .social-media ul li a {
+        padding: 12px 24px;
+        margin: 0px 6px;
+    }
+    .map {
+        height: 350px;
+    }
+}
+@media(max-width: 376px){
+    .slider-section .overlap h1 {
+        font-size: 45px;
+    }
+    .my-profile .my-profile-right {
+        padding-top: 42px;
+    }
+    .how-i-do .how-i-do-img {
+        display: none;
+    }
+    .how-i-do .how-i-do-row p {
+        text-align: justify;
+    }
+    .how-i-do .how-i-do-row h5 {
+        text-align: center;
+    }
+    .my-powerful-skills .overlay p {
+        font-size: 11px;
+        padding: 17px 0;
+    }
+    .how-i-do .how-i-do-row span{
+        margin: 0 auto;
+        width: 8%;
+        display: block;
+    }
+    .how-i-do .hid-underline-two {
+        margin: 0 auto;
+    }
+    .fun-facts .fun-facts-counting {
+        padding: 13px 0;
+    }
+    .what-can-i-do .what-can-i-do-element h5 {
+        font-size: 13px;
+    }
+    .what-can-i-do .what-can-i-do-element .img i {
+        width: 95px;
+        height: 95px;
+        line-height: 95px;
+    }
+    .chk-my-work .chk-my-work-content-two a {
+        margin: 0;
+    }
+
+    .chk-my-work .chk-my-work-content a {
+        padding: 7px 3px;
+    }
+    .chk-my-work .chk-my-work-content p {
+        font-size: 12px;
+        letter-spacing: 0px;
+        text-align: justify;
+    }
+    .client p {
+        width: 100%;
+        padding: 17px 0;
+        letter-spacing: 0;
+        text-align: justify;
+    }
+    .client .client-content .client-content-img {
+        padding: 27px 5px;
+        height: 67px;
+        width: 20%;
+    }
+    .keep-in-touch .keep-in-touch-content-left div{
+        margin: -32px 0px;
+        margin-top: 5px;
+    }
+    .keep-in-touch .keep-in-touch-content-left {
+        margin: -31px 0px;
+    }
+    .keep-in-touch .keep-in-touch-content-right {
+        padding-top: 40px;
+        text-align: center;
+    }
+    .ml-0 {
+        margin-left: 150px !important;
+    }
+    .keep-in-touch .keep-in-touch-content-right form .input-group textarea {
+        width: 89%;
+    }
+    .keep-in-touch .social-media ul {
+        width: 116%;
+    }
+    .keep-in-touch .social-media ul li a {
+        padding: 12px 15px;
+    }
+    .footer p {
+        font-size: 9px;
+        letter-spacing: 0.5px;
+        padding: 20px 0;
+    }
+
+}

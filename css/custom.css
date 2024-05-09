@@ -1,0 +1,737 @@
+
+/*======================================
+      initial css
+========================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+/*font-family: 'Raleway', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*======================================
+      header section start
+========================================*/
+
+.header{}
+.header .header-link{}
+.header .header-link a{
+    color: #fff;
+   font-size: 25px;
+}
+.header .header-link a:hover{}
+.header .header-link b{
+    color: #fff;
+    background: #eb3b5a;
+    padding: 10px;
+    margin-left: 8px;
+}
+
+
+/*======================================
+      header section end
+========================================*/
+
+/*======================================
+      slider section start
+========================================*/
+
+.slider-section{
+    background-image: url(../img/header.jpg);
+    height: auto;
+    width: auto;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.slider-section .overlap .slider-section-content .entity{
+    color: #eb3b5a;
+    font-size: 14px;
+    padding: 0 12px;
+}
+.slider-section .overlap .slider-section-content{
+    text-align: center;
+}
+.slider-section .overlap .slider-section-content span{
+    color: #fff;
+}
+.slider-section .overlap{
+    height: auto;
+    width: auto;
+    background-color: rgba(0,0,0,0.6);
+    padding: 20% 0;
+}
+.slider-section .overlap .slider-section-buttion{}
+.slider-section .overlap .slider-section-buttion .btn-one{
+    background-color: #eb3b5a;
+    border-radius: 0;
+    margin-right: 20px;
+}
+.slider-section .overlap .slider-section-buttion .btn-two:hover{
+    background-color: #eb3b5a;
+    color: #ffffff;
+    border-radius: 0;
+}
+.slider-section .overlap h1{
+    color: #fff;
+    font-size: 65px;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.slider-section .overlap .slider-section-buttion .btn-one:hover{
+    background-color: #ffffff;
+    color: #eb3b5a;
+    border-radius: 0;
+    border: 1px solid #ffffff;
+}
+.slider-section .overlap .slider-section-buttion a{
+    text-decoration: none;
+    border: 1px solid #eb3b5a;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.slider-section .overlap .slider-section-buttion:first-child{}
+.slider-section .overlap .slider-section-buttion:first-child:hover{}
+.slider-section .overlap .slider-section-buttion:last-child{}
+.slider-section .overlap .slider-section-buttion:last-child:hover{}
+
+
+/*======================================
+      slider section end
+========================================*/
+
+
+/*======================================
+      my profile section start
+========================================*/
+.my-profile{}
+.my-profile img{
+    margin: 0 auto;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    border: 4px solid #ddd;
+    box-shadow: 1px 0px 15px 3px #6b6b6b;
+}
+.my-profile .my-profile-top{}
+.my-profile .my-profile-top h4{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 0px;
+}
+.my-profile .my-profile-top p{
+
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+}
+.my-profile .my-profile-top .mpt-underline{
+    height: 2.2px;
+    width: 60px;
+    background-color: #eb3b5a;
+    margin: 0 auto;
+}
+.my-profile .tab-content{
+    border: 1px solid #eb3b5a;
+    padding: 15px;
+    border-top: 0;
+}
+.my-profile .tab-content p{
+    font-size: 13px;
+    padding: 8px 0;
+    letter-spacing: 1px;
+}
+.my-profile .tab-content span{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: monospace;
+    color: #737373;
+}
+.my-profile .tab-content h5{}
+.my-profile .tab-content .mp-underline{
+    height: 2.2px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.my-profile .my-profile-left{}
+.my-profile .my-profile-left ul{
+    border-bottom: 1px solid #eb3b5a;
+}
+.my-profile .my-profile-left ul li{}
+.my-profile .my-profile-left ul li .nav-link.active{
+    color: #868686;
+    border-color: #eb3b5a #eb3b5a #fff;
+}
+.my-profile .my-profile-left ul li a{
+    background-color: #eb3b5a;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-right: 2px;
+}
+.my-profile .my-profile-left ul li a:hover{}
+
+.my-profile .my-profile-right{
+    text-align: center;
+}
+.my-profile .my-profile-right .mp-underline-two{
+    height: 2.2px;
+    margin: 0 auto;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.my-profile .my-profile-right p{
+    padding: 20px 0;
+    text-align: center;
+    color: #848484;
+    font-size: 15px;
+}
+.my-profile .my-profile-right p span{
+    font-size: 15px;
+    color: black;
+}
+
+
+/*======================================
+      my profile section end
+========================================*/
+
+
+/*======================================
+      about section start
+========================================*/
+.about-hire-me{
+    background-color: #eb3b5a;
+    text-transform: uppercase;
+    height: auto;
+    padding: 60px 0px;
+    letter-spacing: 2px;
+
+}
+.about-hire-me p{
+    font-size: 16px;
+}
+.about-hire-me .button{
+    padding: 25px 0px;
+}
+.about-hire-me .button a{
+    font-size: 11px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 10px 15px;
+    margin: 0px 6px;
+}
+.about-hire-me .button a i{
+    font-size: 10px;
+    padding: 0 4px;
+}
+
+.about-hire-me .button a:hover{
+    background-color: #000000;
+    border: 1px solid #000000;
+
+}
+
+/*======================================
+      about section end
+========================================*/
+
+
+/*======================================
+      fun facts section end
+========================================*/
+.fun-facts{
+
+    background-image: url(../img/section-bg-01.jpg);
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.fun-facts .overlay{
+    height: auto;
+    width: auto;
+    background-color: rgba(0,0,0,0.6);
+    padding: 60px 0;
+}
+.fun-facts .overlay h5{
+    color: #ffffff;
+    padding: 25px 0 0;
+}
+.fun-facts .overlay p{
+    font-size: 10.5px;
+    padding: 17px 0;
+    letter-spacing: 1px;
+    color: #eaeaea;
+}
+.fun-facts .fun-underline-two{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.fun-facts .fun-facts-counting{
+
+}
+
+
+.fun-facts .fun-facts-counting i{
+    color: #fff;
+    font-size: 40px
+}
+.fun-facts .fun-facts-counting h5{
+    font-size: 40px;
+    padding: 4px 0;
+}
+.fun-facts .fun-facts-counting span{
+    font-size: 13px;
+    color: #ffffff;
+    letter-spacing: 2.5px;
+    padding: 16px 0;
+}
+.fun-facts .fun-underline-three{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+    margin-bottom: -16px;
+}
+
+/*======================================
+      fun facts section end
+========================================*/
+
+/*======================================
+      what can i do section start
+========================================*/
+.what-can-i-do{}
+.what-can-i-do-head{}
+.what-can-i-do-head h5{
+padding: 25px 0 0;
+}
+.what-can-i-do-head p{
+font-size: 10.5px;
+padding: 17px 0;
+letter-spacing: 1px;
+color: #676666;
+}
+.what-can-i-do-head .fun-underline-two{
+margin: 0 auto;
+height: 3px;
+width: 60px;
+background-color: #eb3b5a;
+}
+
+.what-can-i-do .what-can-i-do-element{}
+.what-can-i-do .what-can-i-do-element h5{
+    padding: 12px 0;
+    color: #636363;
+}
+.what-can-i-do .what-can-i-do-element p{
+    font-size: 10.5px;
+    letter-spacing: 1px;
+    color: #676666;
+    line-height: 18px;
+}
+.what-can-i-do .what-can-i-do-element .img-overlap{
+
+    overflow: hidden;
+    transition: .3s all ease-in-out;
+}
+.what-can-i-do .what-can-i-do-element .img i{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    color: #333;
+    background: #f2f2f2;
+    -webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+/*.what-can-i-do .what-can-i-do-element .img-overlap:hover{
+    border: 2px solid #eb3b5a;
+    border-radius: 100%;
+}
+.what-can-i-do .what-can-i-do-element .img-overlap:hover .img{
+    background-color: #eb3b5a;
+    height: auto;
+    width: auto;
+    color: #ffffff;
+}*/
+.what-can-i-do .what-can-i-do-element .img i{
+    /*font-size: 34px;*/
+}
+.what-can-i-do .what-can-i-do-element .img-overlap:hover i{
+    background: #f7465b;
+    color: #fff;
+}
+
+
+/*======================================
+      what can i do section end
+========================================*/
+
+/*=========================================
+   do you like my service section start
+========================================*/
+.service-like{
+
+    background-image: url(../img/section-bg-02.jpg);
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.service-like .overlay{
+    height: auto;
+    width: auto;
+    background-color: rgba(0,0,0,0.6);
+    padding: 60px 0;
+}
+.service-like .overlay h5{
+    color: #ffffff;
+    padding: 25px 0 0;
+}
+.service-like .overlay p{
+    font-size: 10.5px;
+    padding: 17px 0;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+.service-like .dul-underline-two{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.service-like a{
+    color: #fff;
+    background-color: #eb3b5a;
+    padding: 13px 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.service-like a:hover{
+    text-decoration: none;
+    background-color: #1d2124;
+    color: #ffffff;
+}
+/*=======================================
+   do you like my service section end
+========================================*/
+
+
+/*=======================================
+   my experience section start
+========================================*/
+.my-experiences .overlay h5{
+    color: #ffffff;
+    padding: 25px 0 0;
+}
+.my-experiences .overlay p{
+    font-size: 10.5px;
+    padding: 17px 0;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+.my-experiences .dul-underline-two{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+/*=======================================
+   my experience section end
+========================================*/
+
+
+/*=======================================
+   my powerful skills section start
+========================================*/
+
+.my-powerful-skills{
+
+    background-image: url(../img/skills.jpg.jpeg);
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.my-powerful-skills .overlay{
+    height: auto;
+    width: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding: 60px 0;
+}
+.my-powerful-skills .overlay h5{
+    color: #ffffff;
+    padding: 25px 0 0;
+}
+.my-powerful-skills .overlay p{
+    font-size: 10.5px;
+    padding: 17px 0;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+.my-powerful-skills .mps-underline-two{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.my-powerful-skills .my-powerful-skills-content{}
+.my-powerful-skills .my-powerful-skills-content span{
+    color: #fff;
+    height: 100px;
+    width: 100px;
+    line-height: 85px;
+    font-size: 45px;
+    text-align: center;
+    display: inline-block;
+    border: 5px solid;
+    border-radius: 100%;
+}
+.my-powerful-skills .my-powerful-skills-content span sub{
+    color: #eb3b5a;
+    font-size: 15px;
+}
+.my-powerful-skills .my-powerful-skills-content h5{}
+.my-powerful-skills .my-powerful-skills-content p{
+    font-size: 11px;
+    padding: 12px 0;
+    letter-spacing: 1px;
+    color: #dcdcdc;
+}
+/*=======================================
+   my powerful skills section end
+========================================*/
+
+/*=======================================
+   checkout my works section start
+========================================*/
+.chk-my-work{}
+.chk-my-work .chk-my-work-content{}
+.chk-my-work .chk-my-work-content h4{}
+.chk-my-work .chk-my-work-content a{
+    color: #000;
+    border: 1px solid #eb3b5a;
+    padding: 7px 15px;
+}
+.chk-my-work .chk-my-work-content a:hover{
+    text-decoration: none;
+    background-color: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: #ffffff;
+}
+.chk-my-work .chk-my-work-content p{
+    font-size: 13px;
+    padding: 12px 0;
+    letter-spacing: .5px;
+    color: #676767;
+}
+.chk-my-work .chk-my-work-content .chk-underline-two{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.chk-my-work .chk-my-work-content{
+    list-style: none;
+    /*margin: 0 auto;*/
+}
+.chk-my-work .chk-my-work-content{
+    float: left;
+    padding: 0 5px;
+    margin: 0 auto;
+    width: 100%;
+}
+.chk-my-work .chk-my-work-content-two a{
+    text-decoration: none;
+    margin: 0 5px;
+    border: 1px solid #eb3b5a;
+
+}
+.chk-my-work .chk-my-work-content-two a:hover{
+    text-decoration: none;
+    background-color: #eb3b5a;
+    border: 1px solid #eb3b5a;
+    color: #ffffff;
+}
+.chk-my-work .chk-my-work-content-three{}
+.chk-my-work .chk-my-work-content-three img{}
+.chk-my-work .chk-my-work-content-three img:hover{}
+
+/*=======================================
+   checkout my works section end
+========================================*/
+
+
+
+/*=======================================
+   keep in touch section start
+========================================*/
+.keep-in-touch{
+    background-image: url(../img/contact.png);
+    height: auto;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.keep-in-touch .overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    padding: 60px 0;
+}
+.keep-in-touch .overlay h5{
+    color: #ffffff;
+    padding: 25px 0 0;
+}
+.keep-in-touch .overlay p{
+    font-size: 10.5px;
+    padding: 17px 0;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.keep-in-touch .kit-underline{
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background-color: #eb3b5a;
+}
+.keep-in-touch .keep-in-touch-content-left{}
+.keep-in-touch .keep-in-touch-content-left i{
+    color: #fff;
+    font-size: 25px;
+    height: 50px;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    width: 50px;
+    background-color: #eb3b5a;
+}
+.keep-in-touch .keep-in-touch-content-left h6{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 12px 0;
+    font-family: monospace;
+}
+
+
+.keep-in-touch .keep-in-touch-content-right{}
+.keep-in-touch .keep-in-touch-content-right form{}
+.keep-in-touch .keep-in-touch-content-right form .input-group{
+    background: #08080817;
+}
+.keep-in-touch .keep-in-touch-content-right form .input-group .form-control{
+    /*height: 0;*/
+    border-radius: 0;
+    background-clip: unset;
+    padding: 10px 10px;
+    height: 50px;
+    border: 0;
+}
+.keep-in-touch .keep-in-touch-content-right form .input-group .input-group-text{
+    border: none;
+    background: rgba(139, 145, 150, 0.42);
+    color: #fff;
+}
+.keep-in-touch .keep-in-touch-content-right form .input-group .input-group-text i{
+    color: #fff;
+}
+.keep-in-touch .keep-in-touch-content-right form .input-group .btn-block{
+    border-radius: 0;
+}
+.keep-in-touch .keep-in-touch-content-right form .input-group input[type="text"]{
+    background: #08080845;
+
+}
+.keep-in-touch .keep-in-touch-content-right form .input-group a:hover {
+    background-color: #eb3b5a;
+    border-color: #08080845;
+}
+.keep-in-touch .keep-in-touch-content-right form .input-group textarea{
+    background: #08080845;
+    color: #fff;
+    border: transparent;
+    width: 93%;
+}
+.keep-in-touch .social-media{}
+.keep-in-touch .social-media h5{}
+.keep-in-touch .social-media ul{
+    list-style: none;
+    padding: 18px 0;
+    width: 43%;
+    margin: 0 auto;
+}
+.keep-in-touch .social-media ul li{
+    float: left;
+    text-decoration: none;
+}
+.keep-in-touch .social-media ul li a{
+    color: #fff;
+    padding: 12px 19px;
+    height: 55px;
+    width: 55px;
+    background: #555;
+    margin: 0px 2px;
+}
+.keep-in-touch .social-media ul li a:hover{
+    background: #006ADC;
+}
+/*=======================================
+     keep in touch section end
+========================================*/
+
+.map{
+    height: 430px;
+}
+
+
+/*=======================================
+   footer section start
+========================================*/
+.footer{
+    background-color: #312e2e;
+    color: #cacaca;
+}
+.footer p{
+     font-size: 13px;
+     letter-spacing: 1px;
+     padding: 25px 0;
+ }
+/*=======================================
+   footer section end
+========================================*/
+
+
